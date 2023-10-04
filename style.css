@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    width: 100%;
+    height:700vh;
+}
+
+.main{ 
+        width: 100%; 
+        height:auto; 
+        /* background-color: brown;     */
+        display: flex;
+}
+
+.nav{
+    background-color: rgba(208,161,79,255);
+    height: 700vh;
+    width: 25vw;
+    text-align: center;
+    line-height: 5vh; 
+    padding: 4vw;
+
+   
+}
+
+.nav img{
+    max-width: 100%;
+    
+}
+
+.nav h4{
+cursor: pointer;
+font-size: 1.2vw;
+font-weight: 900;
+margin-top: 1.5vh;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav h4:hover{
+    color: white;
+}
