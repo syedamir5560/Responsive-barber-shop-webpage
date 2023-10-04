@@ -4,8 +4,8 @@
 }
 
 .nav{
-    height: 55vh;
-    max-width: 100%;
+    height:52vh;
+    width: 100%;
     line-height: vh; 
 }
 
@@ -18,6 +18,10 @@
 font-size: 4vw;
 margin-top: -2vh;
 }
+
+
+
+
 
 
 }
