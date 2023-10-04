@@ -7,6 +7,7 @@
     height: 38vh;
     width: 100%;
     line-height: 5.5vh; 
+    z-index: 1;
 }
 
 .nav img{
@@ -23,7 +24,7 @@ margin-top: -3vh;
     width: 100%;
     height: 40vh;
     margin-left: 0vw;
-    margin-top: 105vw;
+    margin-top: 64vw;
     z-index: 0;
 } 
 
