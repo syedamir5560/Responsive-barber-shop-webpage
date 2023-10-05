@@ -62,7 +62,7 @@ font-weight: 1000;
 }
 
 .best h1{
-    margin: 4.5vw 0 0 15vw;
+    margin: 4.5vw 0 0 15vw; 
     font-size: 9vw;
     font-weight: 1000;
     color: black;
@@ -107,6 +107,33 @@ font-weight: 1000;
     font-size: 6vw;
 }
 
+/* ************ */
+.img2{
+    width: 200%;
+    height: 50vh;
+    margin-left: 0vw;
+    margin-top: 100vw;
+    z-index: 0;
+    text-align: center;
+} 
+
+.img2 h1{
+    font-size: 12vw;
+    margin: 12vw 0 0 16vw;     
+}
+
+.img2 p{ 
+    font-size: 7vw;
+    margin: 7vw 0 0 15vw;
+    
+}
+
+.img2 button{
+    font-size: 6vw;
+    font-weight: 9000;
+    padding: 3vw;
+    margin: 10vw 0 0 14vw;
+}
 
 
 

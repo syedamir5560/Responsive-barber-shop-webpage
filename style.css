@@ -54,11 +54,11 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
 
-.img{
-    /* background-image: url(https://images.unsplash.com/photo-1621605815971-fbc98d665033?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80); */
+ /* .img{
+    background-image: url(https://images.unsplash.com/photo-1621605815971-fbc98d665033?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
 
-    /* margin-left: 25vw; */
-}
+    margin-left: 25vw;
+}  */
 
 .img {
     background-position: center;
@@ -103,10 +103,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: red;
     border-radius: 50px;
 }
-.img .what{
-   margin-left: 4vw;
-   
-}
+
 
 .best{
     
@@ -206,8 +203,8 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: blue;
     cursor: pointer;
     border-radius: 50%;
-    
 }
+
 .binfo2 i{
     font-size: 1.5vw;
     color: blue;
@@ -222,3 +219,105 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  .binfo2 .ri-whatsapp-fill{
     color: #d0a14f;
  }
+ 
+ 
+
+ /* *************** */
+
+ 
+.img2 {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.7;
+    margin-left: 25vw;
+    width: 79%;
+    height: 60vh;
+    opacity: 0.7;
+    background-color: #d0a14f;
+    z-index: 1;
+     background-image: url(https://plus.unsplash.com/premium_photo-1677444546739-21b8aad351d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+
+}
+
+.img2 h1{
+    color:#d0a14f;
+    font-size: 4vw;
+    font-weight: 9000;
+    margin: 15vw 0 0 12vw;     
+}
+
+.img2 p{ 
+    color:white;
+    font-size: 1.5vw;
+    font-weight: 9000;
+    margin: 2vw 0 0 14vw;
+    
+}
+
+.img2 button{
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 9000;
+    padding: 1.1vw;
+    margin: 10vh 0 0 14vw;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: red;
+    border-radius: 50px;
+}
+
+/* ******* */
+
+.services h1{
+    margin-left: 30vw;
+    margin-top: 5vw;
+    font-size: 5vw;
+    font-weight: 800;
+}
+
+.servicbox{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+
+.servicbox1{
+    width: 30vw;
+    height: 40vh;
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin-left: 30vw;
+    margin-top: 5vw;
+    background-image: url();
+
+}
+
+.servicbox2{
+  width: 30vw;
+  height: 40vh;
+  background-color: #d0a14f;
+  margin-top: 5vw;
+  border-radius: 20px;
+  margin-left: 5vw;
+
+}
+
+.servicbox3{
+    width: 30vw;
+    height: 40vh;
+    background-color: #d0a14f;
+    margin-top: 5vw;
+    border-radius: 20px;
+    margin-left: 30vw;
+  
+  }
+  .servicbox4{
+    width: 30vw;
+    height: 40vh;
+    background-color: #d0a14f;
+    margin-top: 5vw;
+    border-radius: 20px;
+    margin-left: 5vw;
+  
+  }
