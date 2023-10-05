@@ -139,47 +139,86 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 .barberimg{
     display: flex;
+    
+  
 }
 
-.barberimg .bimgdiv1{
+.barberimg  .bimgdiv1 , .bimgdiv2{
+    height: 35vh;
+    width: 28vw;
+    background-color: rgba(208,161,79,255);
+    border-radius: 20px;
+    margin: 4vw 0 0 5vw;
+    
+
+}
+
+/* .barberimg .bimgdiv2{
     height: 35vh;
     width: 28vw;
     background-color: rgba(208,161,79,255);
     border-radius: 20px;
     margin: 4vw 0 0 5vw;
 
-}
 
-.barberimg .bimgdiv2{
-    height: 35vh;
-    width: 28vw;
-    background-color: rgba(208,161,79,255);
-    border-radius: 20px;
-    margin: 4vw 0 0 5vw;
+} */
 
-}
-
-.barberimg .bimgdiv1 .bimg1{
+.barberimg .bimgdiv1 .bimg1 , .bimgdiv2 .bimg2{
     height: 35vh;
     width: 27vw;
     background-color: royalblue;
     border-radius: 20px;
-    /* margin: 4vw 0 0 5vw; */
     transform: rotate(7.5deg);
     background-image: url(https://images.unsplash.com/photo-1562004760-aceed7bb0fe3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80);
     background-size: cover;
     background-position: center;
-}
-.barberimg .bimgdiv2 .bimg2{
-    height: 35vh;
-    width: 27vw;
-    background-color: royalblue;
-    border-radius: 20px;
-    /* margin: 4vw 0 0 5vw; */
-    transform: rotate(7.5deg);
-    background-image: url(https://images.unsplash.com/photo-1543965170-4c01a586684e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJhcmJlciUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
-    background-size: cover;
-    background-position: center;
-}
+    
+   
 }
 
+.barberimg .bimgdiv2 .bimg2{
+    background-image: url(https://images.unsplash.com/photo-1543965170-4c01a586684e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJhcmJlciUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
+}
+
+
+.binfo1 , .binfo2{
+    width: 19vw;
+    height:6vh;
+    background-color: rgb(251, 248, 248);
+    border-radius: 20px;
+  position: absolute;
+  top: 75%;
+  left: 15%;
+  transform: rotate(0deg);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.binfo1 ,.binfo2 h5{
+    /* margin-top: 0.8vw;
+    margin-left: 0.8vw; */
+    color: rgb(245, 67, 67);
+}
+
+.binfo1  i{
+    font-size: 1.5vw;
+    color: blue;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+.binfo2 i{
+    font-size: 1.5vw;
+    color: blue;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.binfo1  .ri-whatsapp-fill{
+    color: #d0a14f;
+}
+
+ .binfo2 .ri-whatsapp-fill{
+    color: #d0a14f;
+ }
