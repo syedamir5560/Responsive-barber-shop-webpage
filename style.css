@@ -64,16 +64,14 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-position: center;
     background-size: cover;
     /* width: 100%; */
-    height: 80vh;
     background-attachment: fixed;
     opacity: 0.7;
     margin-left: 25vw;
-    width: 95%;
+    width: 100%;
     height: 80vh;
     opacity: 0.7;
     background-color: #d0a14f;
     z-index: 1;
-    
      background-image: url(https://images.unsplash.com/photo-1621605815971-fbc98d665033?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
 
 }
@@ -111,29 +109,77 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .best{
-    height: 20vh;
-    width: 95%;
-    background-color: white;
+    
+    width: 75%;
+    /* background-color: rgb(149, 53, 53); */
     height: 80vh;
     margin-left: 25vw;
+    margin-top: 10vh;
+    
 }
 
 .best h1{
-    margin: 5vw 0 0 10vw;
+    margin: 5vw 0 0 5vw;
     font-size: 3.5vw;
     font-weight: 1000;
 
 }
 
 .best p{
-    margin: 5vw 0 0 10vw;
+    margin: 5vw 0 0 5vw;
     font-size: 1.5vw;
     width: 600px;
 }
 .best h3{
-    margin: 5vw 0 0 10vw;
+    margin: 5vw 0 0 5vw;
     font-size: 1.9vw;
     width: 600px;
     color: red;
+}
+
+.barberimg{
+    display: flex;
+}
+
+.barberimg .bimgdiv1{
+    height: 35vh;
+    width: 28vw;
+    background-color: rgba(208,161,79,255);
+    border-radius: 20px;
+    margin: 4vw 0 0 5vw;
+
+}
+
+.barberimg .bimgdiv2{
+    height: 35vh;
+    width: 28vw;
+    background-color: rgba(208,161,79,255);
+    border-radius: 20px;
+    margin: 4vw 0 0 5vw;
+
+}
+
+.barberimg .bimgdiv1 .bimg1{
+    height: 35vh;
+    width: 27vw;
+    background-color: royalblue;
+    border-radius: 20px;
+    /* margin: 4vw 0 0 5vw; */
+    transform: rotate(7.5deg);
+    background-image: url(https://images.unsplash.com/photo-1562004760-aceed7bb0fe3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80);
+    background-size: cover;
+    background-position: center;
+}
+.barberimg .bimgdiv2 .bimg2{
+    height: 35vh;
+    width: 27vw;
+    background-color: royalblue;
+    border-radius: 20px;
+    /* margin: 4vw 0 0 5vw; */
+    transform: rotate(7.5deg);
+    background-image: url(https://images.unsplash.com/photo-1543965170-4c01a586684e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJhcmJlciUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+}
 }
 
