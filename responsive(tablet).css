@@ -22,9 +22,9 @@ margin-top: -3vh;
 
 .img{
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     margin-left: 0vw;
-    margin-top: 64vw;
+    margin-top: 54vw;
     z-index: 0;
 } 
 
@@ -40,9 +40,9 @@ margin-top: -3vh;
 }
 
 .img button{
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 9000;
-    padding: 3vw;
+    padding: 1vw;
     margin: 10vw 0 0 13vw;
    
 }
@@ -50,6 +50,61 @@ margin-top: -3vh;
    margin-left: 4vw;
    
 }
+
+.best{
+    height: 50vh;
+    width: 100%;
+    /* background-color: rgb(125, 32, 32); */
+    margin-left: 0;
+    
+}
+
+.best h1{
+    margin: 4.5vw 0 0 4vw;
+    font-size: 6vw;
+    font-weight: 1000;
+    color: black;
+
+}
+
+.best p{
+    margin: 10vw 0 0 4vw;
+    font-size:4vw;
+    width: 600px;
+}
+.best h3{
+    margin: 10vw 0 0 4vw;
+    font-size: 4vw;
+    
+}
+
+.barberimg  .bimgdiv1 , .bimgdiv2{
+    height: 20vh;
+    width: 40vw;
+    background-color: rgba(208,161,79,255);
+    border-radius: 20px;
+    margin: 10vw 0 0 5vw;
+}
+.barberimg .bimgdiv1 .bimg1 , .bimgdiv2 .bimg2{
+    height: 20vh;
+    width: 40vw;
+   
+}
+.binfo1 , .binfo2{
+    width: 25vw;
+    height:4vh;
+}
+
+.binfo1  i{
+    /* font-size: 6vw;
+    
+    
+}
+.binfo2 i{
+    font-size: 6vw;
+} */
+
+
 
 
 
