@@ -269,17 +269,17 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 /* ******* */
 
+.servicbox{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+
 .services h1{
     margin-left: 30vw;
     margin-top: 5vw;
     font-size: 5vw;
     font-weight: 800;
-}
-
-.servicbox{
-    display: flex;
-    /* justify-content: center; */
-    flex-wrap: wrap;
 }
 
 .servicbox1{
@@ -289,8 +289,14 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 20px;
     margin-left: 30vw;
     margin-top: 5vw;
-    background-image: url();
-
+    background-image: url(https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpciUyMGN1dHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    color: white;
+    align-items: end;
+    
+    
 }
 
 .servicbox2{
@@ -300,7 +306,12 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 5vw;
   border-radius: 20px;
   margin-left: 5vw;
-
+  background-image: url(https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aGFpciUyMHdhc2hpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  color: white;
+  align-items: end;
 }
 
 .servicbox3{
@@ -310,7 +321,14 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 5vw;
     border-radius: 20px;
     margin-left: 30vw;
-  
+    background-image: url(https://images.unsplash.com/photo-1484291150605-0860ed671f04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    color: white;
+    align-items: end;
+    
+   
   }
   .servicbox4{
     width: 30vw;
@@ -319,5 +337,32 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 5vw;
     border-radius: 20px;
     margin-left: 5vw;
-  
+    background-image: url(https://media.istockphoto.com/id/856184464/photo/a-little-boy-is-trimmed-in-the-hairdressers.jpg?s=2048x2048&w=is&k=20&c=lsrlaVPh0IDA8yFViP7M2G9X_NjVzwlUm2VK172bZPY=);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    color: white;
+    align-items: end;
+    justify-content: end;
+   
+    
+  }
+
+  .servicboxb{
+    padding: auto;
+    height: 5vh;
+    width: 7vw;
+    font-size: 1.5vw;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 15vw;
+  }
+
+  .servicbox h2{
+            font-size: 2vw;
+            font-weight:900;
+            margin-left: 2vw;
+
   }
