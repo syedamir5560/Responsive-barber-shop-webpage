@@ -4,9 +4,9 @@
 }
 
 .nav{
-    height: 38vh;
+    height: 65vh;
     width: 100%;
-    line-height: 5.5vh; 
+    line-height: 6vh; 
     z-index: 1;
 }
 
@@ -16,34 +16,35 @@
 }
 
 .nav h4{
-font-size: 1.8vw;
-margin-top: -3vh;
+font-size: 3vw;
+margin-top: -2vh;
+
 }
 
-.img{
+.img {
+    margin-left: 1vw;
     width: 100%;
-    height: 50vh;
-    margin-left: 0vw;
-    margin-top: 54vw;
+    height: 80vh;
+    margin-top:100vw;
     z-index: 0;
-} 
+}
 
 .img h1{
     font-size: 7vw;
-    margin: 10vw 0 0 15vw;     
+    margin: 4vw 0 0 13vw;     
 }
 
 .img p{ 
-    font-size: 5vw;
+    font-size: 3vw;
     margin: 7vw 0 0 13vw;
     
 }
 
 .img button{
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: 9000;
-    padding: 1vw;
-    margin: 10vw 0 0 13vw;
+    padding: 1.2vw;
+    margin: 5vw 0 0 13vw;
    
 }
 .img .what{
@@ -56,11 +57,12 @@ margin-top: -3vh;
     width: 100%;
     /* background-color: rgb(125, 32, 32); */
     margin-left: 0;
+    margin-top: 0vw;
     
 }
 
 .best h1{
-    margin: 4.5vw 0 0 4vw;
+    margin: 0vw 0 0 20vw;
     font-size: 6vw;
     font-weight: 1000;
     color: black;
@@ -68,22 +70,22 @@ margin-top: -3vh;
 }
 
 .best p{
-    margin: 10vw 0 0 4vw;
+    margin: 10vw 0 0 20vw;
     font-size:4vw;
     width: 600px;
 }
 .best h3{
-    margin: 10vw 0 0 4vw;
+    margin: 10vw 0 0 20vw;
     font-size: 4vw;
     
 }
 
 .barberimg  .bimgdiv1 , .bimgdiv2{
     height: 20vh;
-    width: 40vw;
+    width: 50vw;
     background-color: rgba(208,161,79,255);
     border-radius: 20px;
-    margin: 10vw 0 0 5vw;
+    margin: 10vw 0 0 20vw;
 }
 .barberimg .bimgdiv1 .bimg1 , .bimgdiv2 .bimg2{
     height: 20vh;
@@ -94,10 +96,13 @@ margin-top: -3vh;
     width: 25vw;
     height:4vh;
 }
+.barberimg i{
+    font-size: 4vw;
+}
 /* ***************** */
 .img2{
-    width: 100%;
-    height: 30vh;
+    width:100%;
+    height: 50vh;
     margin-left: 0vw;
     margin-top: 40vw;
     z-index: 0;
@@ -122,7 +127,38 @@ margin-top: -3vh;
     margin: 10vw 0 0 14vw;
 }
 /* ************* */
+.services h1{
+    margin-left: 10vw;
+    margin-top: 10vw;
+    font-size: 7vw;
+    font-weight: 800;
+}
+.servicbox{
+    flex-direction: column;
+    
+}
 
+.servicbox #commonb{
+    width: 120vw;
+    height:40vh;
+    margin-top: 10vw;
+    margin-left: 10vw;
+  }
+
+ .servicboxb{
+    height: 5vh;
+    width:30vw;
+    font-size: 7vw;
+    font-weight: 1000;
+    margin-left: 70vw;
+  }
+
+  .servicbox h2{
+            font-size: 8vw;
+            font-weight:1000;
+            margin-left: 2vw;
+
+  }
 
 
 
