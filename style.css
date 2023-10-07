@@ -555,6 +555,94 @@ form #date{
         font-weight: 600;
     }
     
+    /* contact section */
+    .contact-section {
+        margin-left: 480px;
+    }
+    
+    .contact-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .sub-info h2 {
+        margin-top: 18%;
+    }
+    
+    .sub-info a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #deb847;
+        font-size: 20px;
+    }
+    
+    .icon-section {
+        margin-top: 2vw;
+    }
+    
+    .icon-section span {
+        margin: 5px;
+        text-align: center;
+        background-color: rgb(209, 21, 21);
+        border-radius: 100%;
+        padding: 10px;
+        color: white;
+    }
+    
+    .sub-info-nw {
+        margin-top: 18%;
+        background-color: #deb847;
+        width: 400px;
+        height: 200px;
+        border-radius: 50px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .sub-info-1 {
+        background-color: rgb(209, 21, 21);
+        width: 400px;
+        height: 200px;
+        border-radius: 40px;
+        transform: rotate(10deg);
+        transition: 600ms all;
+    }
+    
+    .sub-info-1:hover {
+        transform: rotate(-10deg);
+    }
+    
+    .sub-nw span {
+        font-size: 60px;
+        color: aliceblue;
+    }
+    
+    .sub-nw h2 {
+        color: white;
+    }
+
+    .sub-info-1 i{
+        background-color: #deb847;
+        border-radius: 50px;
+
+    }
+
+    /* map section */
+
+    .map-section {
+        margin-top: 7%;
+        margin-left:30vw;
+    
+    }
+    
+    .map-section iframe {
+        width: 90%;
+        border-radius: 10px;
+        
+    }
+    
+    
 
 
 
