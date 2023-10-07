@@ -1,177 +1,238 @@
 @media (max-width:550px) {
-    .main2{ 
-      flex-direction: column;
-}
+    .main2 {
+        flex-direction: column;
+    }
 
-.nav{
-    height:90vh;
-    width: 100%;
-    line-height: 10vh; 
-    z-index: 1;
-    
-}
+    .nav {
+        height: 100vh;
+        width: 100%;
+        line-height: 10vh;
+        z-index: 1;
 
-.nav img{
-    max-width: 60%;
-    margin-top:-5vw;
-}
+    }
 
-.nav h4{
-font-size: 9vw;
-margin-top: -4vh;
-font-weight: 1000;
-}
+    .nav img {
+        max-width: 60%;
+        margin-top: -5vw;
+    }
 
-.img{
-    width: 200%;
-    height: 50vh;
-    margin-left: 0vw;
-    margin-top: 185vw;
-    z-index: 0;
-} 
+    .nav h4 {
+        font-size: 9vw;
+        margin-top: -4vh;
+        font-weight: 1000;
+    }
 
-.img h1{
-    font-size: 10vw;
-    margin: 12vw 0 0 16vw;     
-}
+    .img {
+        width: 200%;
+        height: 50vh;
+        margin-left: 0vw;
+        margin-top: 210vw;
+        z-index: 0;
+    }
 
-.img p{ 
-    font-size: 7vw;
-    margin: 7vw 0 0 13vw;
-    
-}
+    .img h1 {
+        font-size: 10vw;
+        margin: 12vw 0 0 16vw;
+    }
 
-.img button{
-    font-size: 6vw;
-    font-weight: 9000;
-    padding: 3vw;
-    margin: 10vw 0 0 13vw;
-   
-}
-.img .what{
-   margin-left: 6vw;
-   
-}
+    .img p {
+        font-size: 7vw;
+        margin: 7vw 0 0 13vw;
 
-.best{
-    height: 50vh;
-    width: 200%;
-    /* background-color: rgb(125, 32, 32); */
-    margin-left: 0;
-    
-}
+    }
 
-.best h1{
-    margin: 4.5vw 0 0 15vw; 
-    font-size: 9vw;
-    font-weight: 1000;
-    color: black;
+    .img button {
+        font-size: 6vw;
+        font-weight: 9000;
+        padding: 3vw;
+        margin: 10vw 0 0 13vw;
 
-}
+    }
 
-.best p{
-    margin: 10vw 0 0 15vw;
-    font-size:7vw;
-    width: 600px;
-}
-.best h3{
-    margin: 10vw 0 0 15vw;
-    font-size: 7vw;
-    width: 600px;
-    color: red;
-}
+    .img .what {
+        margin-left: 6vw;
 
-.barberimg  .bimgdiv1 , .bimgdiv2{
-    height: 40vh;
-    width: 90vw;
-    background-color: rgba(208,161,79,255);
-    border-radius: 20px;
-    margin: 10vw 0 0 7vw;
-}
-.barberimg .bimgdiv1 .bimg1 , .bimgdiv2 .bimg2{
-    height: 40vh;
-    width: 90vw;
-   
-}
-.binfo1 , .binfo2{
-    width: 60vw;
-    height:7vh;
-}
+    }
 
-.binfo1  i{
-    font-size: 6vw;
-    
-    
-}
-.binfo2 i{
-    font-size: 6vw;
-}
+    .best {
+        height: 50vh;
+        width: 200%;
+        /* background-color: rgb(125, 32, 32); */
+        margin-left: 0;
 
-/* ************ */
-.img2{
-    width: 200%;
-    height: 50vh;
-    margin-left: 0vw;
-    margin-top: 100vw;
-    z-index: 0;
-    text-align: center;
-} 
+    }
 
-.img2 h1{
-    font-size: 12vw;
-    margin: 12vw 0 0 16vw;     
-}
+    .best h1 {
+        margin: 4.5vw 0 0 15vw;
+        font-size: 9vw;
+        font-weight: 1000;
+        color: black;
 
-.img2 p{ 
-    font-size: 7vw;
-    margin: 7vw 0 0 15vw;
-    
-}
+    }
 
-.img2 button{
-    font-size: 6vw;
-    font-weight: 9000;
-    padding: 3vw;
-    margin: 10vw 0 0 14vw;
-}
+    .best p {
+        margin: 10vw 0 0 15vw;
+        font-size: 7vw;
+        width: 600px;
+    }
 
-/* service */
+    .best h3 {
+        margin: 10vw 0 0 15vw;
+        font-size: 7vw;
+        width: 600px;
+        color: red;
+    }
+
+    .barberimg .bimgdiv1,
+    .bimgdiv2 {
+        height: 40vh;
+        width: 90vw;
+        background-color: rgba(208, 161, 79, 255);
+        border-radius: 20px;
+        margin: 10vw 0 0 7vw;
+    }
+
+    .barberimg .bimgdiv1 .bimg1,
+    .bimgdiv2 .bimg2 {
+        height: 40vh;
+        width: 90vw;
+
+    }
+
+    .binfo1,
+    .binfo2 {
+        width: 60vw;
+        height: 7vh;
+    }
+
+    .binfo1 i {
+        font-size: 6vw;
 
 
-.services h1{
-    margin-left: 20vw;
+    }
+
+    .binfo2 i {
+        font-size: 6vw;
+    }
+
+    /* ************ */
+    .img2 {
+        width: 200%;
+        height: 50vh;
+        margin-left: 0vw;
+        margin-top: 100vw;
+        z-index: 0;
+        text-align: center;
+    }
+
+    .img2 h1 {
+        font-size: 12vw;
+        margin: 12vw 0 0 16vw;
+    }
+
+    .img2 p {
+        font-size: 7vw;
+        margin: 7vw 0 0 15vw;
+
+    }
+
+    .img2 button {
+        font-size: 6vw;
+        font-weight: 9000;
+        padding: 3vw;
+        margin: 10vw 0 0 14vw;
+    }
+
+    /* service */
+
+
+    .services h1 {
+        margin-left: 20vw;
+        margin-top: 10vw;
+        font-size: 10vw;
+        font-weight: 800;
+    }
+
+    .servicbox {
+        flex-direction: column;
+
+    }
+
+    .servicbox #commonb {
+        width: 155vw;
+        height: 50vh;
+        margin-top: 10vw;
+        margin-left: 20vw;
+    }
+
+    .servicboxb {
+        height: 5vh;
+        width: 40vw;
+        font-size: 7vw;
+        font-weight: 1000;
+        margin-left: 80vw;
+    }
+
+    .servicbox h2 {
+        font-size: 10vw;
+        font-weight: 1000;
+        margin-left: 2vw;
+
+    }
+
+    /* form section */
+
+    .form-img {
+        padding: 40px;
+        width: 200%;
+        height: 120vh;
+        margin-left: 5vw;
+        margin-top: 10vw;
+    }
+
+    .form-section {
+        height: 100vh;
+        width: 90%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-section h2,
+    p {
+        margin-top: 5vw;
+    }
+
+    form input {
+        margin-top: 5vw;
+    }
+
+    form button {
+        margin-top: 3vw;
+        width: 5vw;
+        height: 5vh;
+        text-align: center;
+        align-items: center;
+    }
+
+
+/* price */
+
+.price-section {
+    /* margin-left: 5vw; */
     margin-top: 10vw;
-    font-size: 10vw;
-    font-weight: 800;
 }
-.servicbox{
+.price-card-container {
     flex-direction: column;
-    
+    justify-content:center;
+    align-items: center;
 }
 
-.servicbox #commonb{
-    width: 155vw;
-    height:50vh;
-    margin-top: 10vw;
-    margin-left: 20vw;
-  }
-
- .servicboxb{
-    height: 5vh;
-    width:40vw;
-    font-size: 7vw;
-    font-weight: 1000;
-    margin-left: 80vw;
-  }
-
-  .servicbox h2{
-            font-size: 10vw;
-            font-weight:1000;
-            margin-left: 2vw;
-
-  }
-
-
+.card-1{
+        margin-top: 10vw;
+}
 
 
 

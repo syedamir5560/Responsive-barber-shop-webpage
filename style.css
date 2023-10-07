@@ -97,15 +97,18 @@ body {
 
 .img button {
     color: white;
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: 9000;
     padding: 0.5vw;
     margin: 5vw 0 0 14vw;
     cursor: pointer;
-    background-color: #d0a14f;
     border: 2px solid white;
     background-color: red;
     border-radius: 50px;
+}
+
+.img .what{
+        margin-left: 5vw;
 }
 
 
