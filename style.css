@@ -563,7 +563,7 @@ form #date{
     .contact-info {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     
     .sub-info h2 {
@@ -623,8 +623,7 @@ form #date{
     }
 
     .sub-info-1 i{
-        background-color: #deb847;
-        border-radius: 50px;
+        color: #deb847;
 
     }
 
@@ -642,6 +641,38 @@ form #date{
         
     }
     
+    /* our branch */
+
+    .our-branch {
+        margin-left: 450px;
+        margin-top: 5%;
+    }
+    
+    .branch-cards {
+        margin-top: 2%;
+        display: grid;
+        grid-template-columns: 4fr 4fr 4fr;
+    }
+    
+    .branch-card h3 {
+        color: rgb(209, 21, 21);
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .branch-card p {
+        color: grey;
+        font-size: 22px;
+        width: 80%;
+    }
+    
+    .copy-right {
+        margin-top: 5%;
+        color: grey;
+        font-size: 18px;
+        margin-bottom: 5%;
+        margin-left: 45vw;
+    }
     
 
 
